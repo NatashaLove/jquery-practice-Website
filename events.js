@@ -1,4 +1,4 @@
-//javascript events for this page go here//
+//javascript events for html page -no linked now, because copied from the platfrom. to have it work- need to link between the files//
 function str2json() {
         var str = document.getElementById('jsonData').innerHTML;
         var jsonObj = JSON.parse(str);
