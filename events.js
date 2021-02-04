@@ -75,6 +75,13 @@ $("#title").text("This is 2 TiTlE!!");
    // alert("MFH!!!");
   });
   
+  //handling events: (event)-object - has methods:
+  $("a").click(function(event) {
+  alert(event.pageX);
+    event.preventDefault();
+  });
+          
+        
   //***
   //d-inline-block - keeps the div element inline with the previous + flexible(when moretext- enlarges!)
  //***
